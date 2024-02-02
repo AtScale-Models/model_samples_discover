@@ -1,0 +1,25 @@
+{
+  "yaml.schemas": {
+    "http://10.160.201.46:8080/dimension.schema.json": [
+      "*.dimension.yml", "/dimensions/**.yml"
+    ],
+    "http://10.160.201.46:8080/dataset.schema.json": [
+      "*.dataset.yml", "/datasets/**.yml"
+    ],
+    "http://10.160.201.46:8080/connection.schema.json": [
+      "*.connection.yml", "/connections/**.yml"
+    ],
+    "http://10.160.201.46:8080/measure.schema.json": [
+      "*.measure.yml", 
+    ],
+    "http://10.160.201.46:8080/model.schema.json": [
+      "*.model.yml", "/metrics/**.yml"
+    ],
+    "http://10.160.201.46:8080/atscaleSettings.schema.json": [
+      "atscale.yml"
+    ]
+  },
+  "files.watcherExclude": {
+    "**/target": true
+  }
+}

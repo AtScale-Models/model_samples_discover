@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="*.dimension.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="*.dimension.yml"></option>
+              <option name="name" value="*.dimension.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/dimension.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="*.dimension.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="/dimensions/*.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="*.dataset.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="*.dataset.yml"></option>
+              <option name="name" value="*.dataset.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/dataset.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="*.dataset.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="/datasets/**.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="*.connection.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="*.connection.yml"></option>
+              <option name="name" value="*.connection.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/connection.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="*.connection.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="/connections/**.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="*.measure.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="*.measure.yml"></option>
+              <option name="name" value="*.measure.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/measure.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="*.measure.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="/metrics/**.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="*.model.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="*.model.yml"></option>
+              <option name="name" value="*.model.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/model.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="*.model.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="/models/**.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="atscale.yml">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="atscale.yml"></option>
+              <option name="name" value="atscale.yml"></option>
+              <option name="relativePathToSchema" value="http://10.160.201.46:8080/atscaleSettings.schema.json"></option>
+              <option name="schemaVersion" value="JSON Schema version 7"></option>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true"></option>
+                    <option name="path" value="atscale.yml"></option>
+                    <option name="mappingKind" value="Pattern"></option>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
