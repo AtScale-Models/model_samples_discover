@@ -3,4 +3,4 @@ label: Snowflake
 object_type: connection
 as_connection: con1
 database: CUSTOMER_SANDBOX
-schema: AS_ADVENTURE
+schema: as_adventure
