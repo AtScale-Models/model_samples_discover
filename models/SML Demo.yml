@@ -1,6 +1,6 @@
-unique_name: SML Demo
+unique_name: SML_Demo
 object_type: model
-label: SML Demo
+label: SML_Demo
 dimensions:
 drillthroughs:
 metrics:
