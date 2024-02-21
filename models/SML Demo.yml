@@ -1,1 +1,9 @@
-
+unique_name: SML Demo
+object_type: model
+label: SML Demo
+dimensions:
+drillthroughs:
+metrics:
+perspectives:
+relationships:
+visible: true
