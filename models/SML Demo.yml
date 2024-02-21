@@ -1,9 +1,5 @@
 unique_name: SML_Demo
 object_type: model
 label: SML_Demo
-dimensions:
-drillthroughs:
 metrics:
-perspectives:
 relationships:
-visible: true
