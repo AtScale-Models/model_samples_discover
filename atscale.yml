@@ -1,5 +1,5 @@
 unique_name: Sales Insights
-label: Sales Insights2
+label: Sales Insights
 object_type: AtscaleSettings
 as_version: 1.0
 aggressive_agg_promotion: false
