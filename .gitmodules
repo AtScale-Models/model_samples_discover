@@ -1,0 +1,4 @@
+[submodule "model_samples_shared"]
+	path = model_samples_shared
+	url = https://github.com/AtScale-Models/model_samples_shared.git
+	branch = main
