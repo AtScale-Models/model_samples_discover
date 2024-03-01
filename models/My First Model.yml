@@ -1,6 +1,6 @@
 unique_name: My First Model
 object_type: model
-label: My First Model
+label: My First Model changed
 dimensions:
   - color dimension
 metrics:
