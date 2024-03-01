@@ -1,0 +1,6 @@
+unique_name: customercount
+object_type: metric
+label: Count of customers
+calculation_method: estimated count distinct
+column: customerkey
+dataset: factinternetsales

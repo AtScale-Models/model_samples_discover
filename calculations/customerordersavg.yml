@@ -1,0 +1,5 @@
+unique_name: customerordersavg
+object_type: metric_calc
+label: Average Orders per customer
+expression: '[Measures].[orderquantiry] / [Measures].[customercount]'
+is_hidden: false

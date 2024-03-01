@@ -1,0 +1,18 @@
+unique_name: color dimension
+object_type: dimension
+label: color dimension
+hierarchies:
+  - unique_name: color hierarchy
+    label: color
+    levels:
+      - unique_name: color
+is_degenerate: true
+level_attributes:
+  - unique_name: color
+    label: color
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - color
+    name_column: color
+type: standard
