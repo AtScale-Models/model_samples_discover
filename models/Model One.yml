@@ -1,0 +1,15 @@
+unique_name: Model One
+object_type: model
+label: Model One
+metrics: []
+relationships:
+  - unique_name: >-
+      factinternetsales_customerkey_to_dimcustomer_dimension_dimcustomer_dimension
+      Level
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - customerkey
+    to:
+      dimension: dimcustomer_dimension
+      level: dimcustomer_dimension Level
