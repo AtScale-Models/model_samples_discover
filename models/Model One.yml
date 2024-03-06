@@ -1,7 +1,9 @@
 unique_name: Model One
 object_type: model
 label: Model One
-metrics: []
+metrics:
+  - unique_name: factinternetsales_measure
+  - unique_name: factinternetsales_measure (1)
 relationships:
   - unique_name: >-
       factinternetsales_customerkey_to_dimcustomer_dimension_dimcustomer_dimension
