@@ -1,0 +1,45 @@
+unique_name: My Recovery Model Sample
+object_type: model
+label: My Recovery Model Sample
+dimensions:
+  - color dimension
+metrics:
+  - unique_name: orderquantiry
+  - unique_name: customercount
+  - unique_name: salesamount
+  - unique_name: customerordersavg
+relationships:
+  - unique_name: factinternetsales_customerkey_to_Customer Dimension_Customer Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - customerkey
+    to:
+      dimension: Customer Dimension
+      level: Customer Name
+  - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: Product Dimension
+      level: Product Name
+  - unique_name: factinternetsales_shipdatekey_to_Date Dimension_DayMonth
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - shipdatekey
+    role_play: Ship {0}
+    to:
+      dimension: Date Dimension
+      level: DayMonth
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_DayMonth
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    role_play: Order {0}
+    to:
+      dimension: Date Dimension
+      level: DayMonth
