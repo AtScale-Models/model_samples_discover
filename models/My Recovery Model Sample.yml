@@ -43,3 +43,13 @@ relationships:
     to:
       dimension: Date Dimension
       level: DayMonth
+  - unique_name: >-
+      Internet Sales Fact_salesordernumber_to_Internet Sales Dim_Internet Sales
+      Level
+    from:
+      dataset: Internet Sales Fact
+      join_columns:
+        - salesordernumber
+    to:
+      dimension: Internet Sales Dim
+      level: Internet Sales Level
