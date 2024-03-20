@@ -1,0 +1,19 @@
+unique_name: Account Dim
+object_type: dimension
+label: Account Dim
+hierarchies:
+  - unique_name: Account Hierarchy
+    label: Account Hierarchy
+    levels:
+      - unique_name: Account Level
+level_attributes:
+  - unique_name: Account Level
+    label: Account Level
+    contains_unique_names: false
+    dataset: Account Fact
+    is_hidden: true
+    is_unique_key: false
+    key_columns:
+      - salesorderlinenumber
+    name_column: salesorderlinenumber
+type: standard

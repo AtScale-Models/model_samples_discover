@@ -1,0 +1,19 @@
+unique_name: Recovery Account Dim
+object_type: dimension
+label: Recovery Account Dim
+hierarchies:
+  - unique_name: Recovery Account Hierarchy
+    label: Recovery Account Hierarchy
+    levels:
+      - unique_name: Recovery Account Level
+level_attributes:
+  - unique_name: Recovery Account Level
+    label: Recovery Account Level
+    contains_unique_names: false
+    dataset: Recovery Account Fact
+    is_hidden: true
+    is_unique_key: false
+    key_columns:
+      - salesorderlinenumber
+    name_column: salesorderlinenumber
+type: standard

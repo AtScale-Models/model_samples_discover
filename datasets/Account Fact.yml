@@ -1,10 +1,10 @@
-unique_name: Internet Sales Fact
+unique_name: Account Fact
 object_type: dataset
-label: Internet Sales Fact
+label: Account Fact
 columns:
   - data_type: string
     name: salesordernumber
-  - data_type: decimal(38,0)
+  - data_type: long
     name: salesorderlinenumber
   - data_type: string
     name: sales_reasons
@@ -12,7 +12,7 @@ columns:
     name: productkey
   - data_type: string
     name: product_info
-  - data_type: decimal(38,0)
+  - data_type: long
     name: orderdatekey
   - data_type: decimal(38,0)
     name: customerkey
