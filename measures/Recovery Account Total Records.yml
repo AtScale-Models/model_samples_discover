@@ -1,0 +1,6 @@
+unique_name: Recovery Account Total Records
+object_type: metric
+label: Recovery Account Total Records
+calculation_method: count non-null
+column: salesorderlinenumber
+dataset: Recovery Account Fact

@@ -8,58 +8,6 @@ metrics:
   - unique_name: salesamount
   - unique_name: customerordersavg
 relationships:
-  - unique_name: factinternetsales_shipdatekey_to_Date Dimension_DayMonth
-    from:
-      dataset: factinternetsales
-      join_columns:
-        - shipdatekey
-    role_play: Ship {0}
-    to:
-      dimension: Date Dimension
-      level: DayMonth
-  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_DayMonth
-    from:
-      dataset: factinternetsales
-      join_columns:
-        - orderdatekey
-    role_play: Order {0}
-    to:
-      dimension: Date Dimension
-      level: DayMonth
-  - unique_name: >-
-      Internet Sales Fact_salesordernumber_to_Internet Sales Dim_Internet Sales
-      Level
-    from:
-      dataset: Internet Sales Fact
-      join_columns:
-        - salesordernumber
-    to:
-      dimension: Internet Sales Dim
-      level: Internet Sales Level
-  - unique_name: >-
-      Recovery Account Fact_salesorderlinenumber_to_Recovery Account
-      Dim_Recovery Account Level
-    from:
-      dataset: Recovery Account Fact
-      join_columns:
-        - salesorderlinenumber
-    to:
-      dimension: Recovery Account Dim
-      level: Recovery Account Level
-  - unique_name: ''
-    from:
-      dataset: factinternetsales
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
-  - unique_name: ''
-    from:
-      dataset: factinternetsales
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
   - unique_name: Account Fact_salesorderlinenumber_to_Account Dim_Account Level
     from:
       dataset: Account Fact
@@ -84,3 +32,13 @@ relationships:
     to:
       dimension: Date Dimension
       level: DayMonth
+  - unique_name: >-
+      Recovery Account Fact_salesorderlinenumber_to_Recovery Account
+      Dim_Recovery Account Level
+    from:
+      dataset: Recovery Account Fact
+      join_columns:
+        - salesorderlinenumber
+    to:
+      dimension: Recovery Account Dim
+      level: Recovery Account Level

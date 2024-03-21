@@ -1,0 +1,6 @@
+unique_name: Recovery Account Order Quantity
+object_type: metric
+label: Recovery Account Order Quantity
+calculation_method: sum
+column: orderquantity
+dataset: Recovery Account Fact

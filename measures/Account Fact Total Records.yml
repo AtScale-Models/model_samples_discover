@@ -1,0 +1,6 @@
+unique_name: Account Fact Total Records
+object_type: metric
+label: Account Fact Total Records
+calculation_method: count non-null
+column: salesorderlinenumber
+dataset: Account Fact
