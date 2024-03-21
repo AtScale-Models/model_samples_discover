@@ -3,10 +3,10 @@ object_type: model
 label: My Recovery Model Sample
 dimensions: []
 metrics:
-  - unique_name: orderquantiry
-  - unique_name: customercount
-  - unique_name: salesamount
-  - unique_name: customerordersavg
+  - unique_name: Recovery Account Total Records
+  - unique_name: Recovery Account Order Quantity
+  - unique_name: Account Fact Total Records
+  - unique_name: Account Fact Order Quantity
 relationships:
   - unique_name: Account Fact_salesorderlinenumber_to_Account Dim_Account Level
     from:
