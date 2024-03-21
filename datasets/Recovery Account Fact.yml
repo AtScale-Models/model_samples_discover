@@ -14,7 +14,7 @@ columns:
     name: product_info
   - data_type: long
     name: orderdatekey
-  - data_type: decimal(38,0)
+  - data_type: long
     name: customerkey
   - data_type: decimal(38,0)
     name: orderquantity

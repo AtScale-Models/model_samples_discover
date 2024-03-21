@@ -16,4 +16,15 @@ level_attributes:
     key_columns:
       - salesorderlinenumber
     name_column: salesorderlinenumber
+relationships:
+  - from:
+      dataset: Recovery Account Fact
+      hierarchy: Recovery Account Hierarchy
+      join_columns:
+        - customerkey
+      level: Recovery Account Level
+    to:
+      dimension: dimcustomer_dimension
+      level: dimcustomer_dimension Level
+    type: embedded
 type: standard
