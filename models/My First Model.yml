@@ -8,6 +8,7 @@ metrics:
   - unique_name: customercount
   - unique_name: salesamount
   - unique_name: customerordersavg
+  - unique_name: avg_salesamount
 relationships:
   - unique_name: factinternetsales_customerkey_to_Customer Dimension_Customer Name
     from:
