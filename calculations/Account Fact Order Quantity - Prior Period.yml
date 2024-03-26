@@ -1,0 +1,5 @@
+unique_name: Account Fact Order Quantity - Prior Period
+object_type: metric_calc
+label: Account Fact Order Quantity - Prior Period
+expression: '([Date Dimension].[Date Month Hierarchy].CurrentMember.PrevMember, [Measures].[Recovery Account Order Quantity])'
+is_hidden: false

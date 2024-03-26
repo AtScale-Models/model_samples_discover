@@ -7,6 +7,7 @@ metrics:
   - unique_name: Recovery Account Order Quantity
   - unique_name: Account Fact Total Records
   - unique_name: Account Fact Order Quantity
+  - unique_name: Account Fact Order Quantity - Prior Period
 relationships:
   - unique_name: Account Fact_salesorderlinenumber_to_Account Dim_Account Level
     from:
