@@ -24,7 +24,17 @@ relationships:
         - customerkey
       level: Account Level
     to:
-      dimension: dimcustomer_dimension
-      level: dimcustomer_dimension Level
+      dimension: Customer Dim
+      level: Customer Key
+    type: embedded
+  - from:
+      dataset: Account Fact
+      hierarchy: Account Hierarchy
+      join_columns:
+        - productkey
+      level: Account Level
+    to:
+      dimension: Product Dimension
+      level: Product Name
     type: embedded
 type: standard

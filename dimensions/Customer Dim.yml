@@ -45,7 +45,7 @@ level_attributes:
     contains_unique_names: false
     dataset: dimcustomer
     is_hidden: true
-    is_unique_key: false
+    is_unique_key: true
     key_columns:
       - customerkey
     name_column: customerkey
