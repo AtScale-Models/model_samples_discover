@@ -1,0 +1,52 @@
+unique_name: Customer Dim
+object_type: dimension
+label: Customer Dim
+hierarchies:
+  - unique_name: Customer Hierarchy
+    label: Customer Hierarchy
+    levels:
+      - unique_name: Customer Key
+        secondary_attributes:
+          - unique_name: firstname
+            label: firstname
+            contains_unique_names: false
+            dataset: dimcustomer
+            is_unique_key: false
+            key_columns:
+              - firstname
+            name_column: firstname
+          - unique_name: lastname
+            label: lastname
+            contains_unique_names: false
+            dataset: dimcustomer
+            is_unique_key: false
+            key_columns:
+              - lastname
+            name_column: lastname
+          - unique_name: fullname
+            label: fullname
+            contains_unique_names: false
+            dataset: dimcustomer
+            is_unique_key: false
+            key_columns:
+              - fullname
+            name_column: fullname
+          - unique_name: gender
+            label: gender
+            contains_unique_names: false
+            dataset: dimcustomer
+            is_unique_key: false
+            key_columns:
+              - gender
+            name_column: gender
+level_attributes:
+  - unique_name: Customer Key
+    label: Customer Key
+    contains_unique_names: false
+    dataset: dimcustomer
+    is_hidden: true
+    is_unique_key: false
+    key_columns:
+      - customerkey
+    name_column: customerkey
+type: standard

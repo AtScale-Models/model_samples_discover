@@ -8,7 +8,7 @@ columns:
     name: salesorderlinenumber
   - data_type: string
     name: sales_reasons
-  - data_type: decimal(38,0)
+  - data_type: long
     name: productkey
   - data_type: string
     name: product_info

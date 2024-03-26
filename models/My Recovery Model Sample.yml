@@ -42,3 +42,21 @@ relationships:
     to:
       dimension: Recovery Account Dim
       level: Recovery Account Level
+  - unique_name: >-
+      Account Fact_salesorderlinenumber_to_Recovery Account Dim_Recovery Account
+      Level
+    from:
+      dataset: Account Fact
+      join_columns:
+        - salesorderlinenumber
+    to:
+      dimension: Recovery Account Dim
+      level: Recovery Account Level
+  - unique_name: Recovery Account Fact_salesorderlinenumber_to_Account Dim_Account Level
+    from:
+      dataset: Recovery Account Fact
+      join_columns:
+        - salesorderlinenumber
+    to:
+      dimension: Account Dim
+      level: Account Level

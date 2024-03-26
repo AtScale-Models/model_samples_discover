@@ -24,7 +24,17 @@ relationships:
         - customerkey
       level: Recovery Account Level
     to:
-      dimension: dimcustomer_dimension
-      level: dimcustomer_dimension Level
+      dimension: Customer Dim
+      level: Customer Key
+    type: embedded
+  - from:
+      dataset: Recovery Account Fact
+      hierarchy: Recovery Account Hierarchy
+      join_columns:
+        - productkey
+      level: Recovery Account Level
+    to:
+      dimension: Product Dimension
+      level: Product Name
     type: embedded
 type: standard
